@@ -27,8 +27,8 @@ public class Hw1Task1 {
         int n = iScanner.nextInt();
         int totalSum = getSum(n);
         int totalMult = getMult(n);
-        System.out.printf("Cумма чисел от 1 до n = %d\n", totalSum);
-        System.out.printf("произведение чисел от 1 до n = %d", totalMult);
+        System.out.printf("Sum of numbers from 1 to n = %d\n", totalSum);
+        System.out.printf("Product of numbers from 1 to n = %d", totalMult);
         // n = 4 1+2+3+4 = 10 1*2*3*4 = 24
     }
 }
