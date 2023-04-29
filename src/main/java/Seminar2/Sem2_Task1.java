@@ -26,7 +26,5 @@ public class Sem2_Task1 {
 
         String result = myString(c1, c2, n);
         System.out.println(result);
-
-
     }
 }
