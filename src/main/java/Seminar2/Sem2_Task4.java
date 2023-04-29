@@ -1,6 +1,7 @@
 package Seminar2;
 
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 
 /*
@@ -16,17 +17,29 @@ public class Sem2_Task4 {
         File file = new File(file_name);
 
 
-        try{
-            FileWriter writer = new FileWriter(file,false);
-            for (int i = 0; i < n; i++){
+        try {
+            FileWriter writer = new FileWriter(file, false);
+            for (int i = 0; i < n; i++) {
                 writer.write(text);
                 writer.write("\n");
             }
             writer.close();
             System.out.println("Получилось!)");
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             System.out.println("Что то пошло не так");
         }
+
+        try {
+            FileReader f = new FileReader(file);
+            char[] a = new char[(int) file.length()];
+            f.read(a);
+            for (char c : a) {
+                System.out.print(c);
+            }
+            f.close();
+        } catch (Exception e) {
+            System.out.println("Что то не так");
+        }
+
     }
 }
