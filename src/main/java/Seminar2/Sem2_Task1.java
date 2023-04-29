@@ -18,7 +18,7 @@ public class Sem2_Task1 {
         return result.toString();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         int n = 6;
         String c1 = "a";
