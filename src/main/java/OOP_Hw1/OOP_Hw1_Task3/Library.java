@@ -1,4 +1,4 @@
-package OOP_Hw1_Task3;
+package OOP_Hw1.OOP_Hw1_Task3;
 
 import java.util.ArrayList;
 

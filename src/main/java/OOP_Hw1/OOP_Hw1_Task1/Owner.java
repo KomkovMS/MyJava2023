@@ -1,4 +1,4 @@
-package OOP_Hw1_Task1;
+package OOP_Hw1.OOP_Hw1_Task1;
 
 /**
  * Класс, представляющий владельца кота.
