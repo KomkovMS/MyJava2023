@@ -1,4 +1,4 @@
-package OOP_Hw3.Task2;
+package OOP_Hw3.Task1;
 
 /*
 Урок 2 задание 2:

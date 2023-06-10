@@ -1,4 +1,4 @@
-package OOP_Hw3.Task2;
+package OOP_Hw3.Task1;
 
 /**
  * Класс Market реализует интерфейс I_MarketBehaviour и представляет собой

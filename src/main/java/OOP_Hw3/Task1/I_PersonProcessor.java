@@ -1,4 +1,4 @@
-package OOP_Hw3.Task2;
+package OOP_Hw3.Task1;
 
 /**
  * Интерфейс I_PersonProcessor определяет методы для обработки человека.
